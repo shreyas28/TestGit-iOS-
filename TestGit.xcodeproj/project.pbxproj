@@ -15,6 +15,7 @@
 		04DD5BA61C2612B900C8611D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DD5BA41C2612B900C8611D /* LaunchScreen.storyboard */; };
 		04DD5BB11C2612B900C8611D /* TestGitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DD5BB01C2612B900C8611D /* TestGitTests.m */; };
 		04DD5BBC1C2612B900C8611D /* TestGitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DD5BBB1C2612B900C8611D /* TestGitUITests.m */; };
+		04DD5BCB1C2616FF00C8611D /* CCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DD5BCA1C2616FF00C8611D /* CCTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		04DD5BB71C2612B900C8611D /* TestGitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestGitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DD5BBB1C2612B900C8611D /* TestGitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestGitUITests.m; sourceTree = "<group>"; };
 		04DD5BBD1C2612B900C8611D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04DD5BC91C2616FF00C8611D /* CCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTest.h; sourceTree = "<group>"; };
+		04DD5BCA1C2616FF00C8611D /* CCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		04DD5B8A1C2612B800C8611D = {
 			isa = PBXGroup;
 			children = (
+				04DD5BC91C2616FF00C8611D /* CCTest.h */,
+				04DD5BCA1C2616FF00C8611D /* CCTest.m */,
 				04DD5B951C2612B900C8611D /* TestGit */,
 				04DD5BAF1C2612B900C8611D /* TestGitTests */,
 				04DD5BBA1C2612B900C8611D /* TestGitUITests */,
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04DD5B9E1C2612B900C8611D /* ViewController.m in Sources */,
+				04DD5BCB1C2616FF00C8611D /* CCTest.m in Sources */,
 				04DD5B9B1C2612B900C8611D /* AppDelegate.m in Sources */,
 				04DD5B981C2612B900C8611D /* main.m in Sources */,
 			);
